@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%
+}
+body{
+    background-color: rgb(244,244,244);
+}
+aside{
+    background-image: url("https://picsum.photos/900/900");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+aside h1{
+    text-align: center;
+    background-color: rgb(89,89,89);
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 25%;
+}
+section{
+    text-align: center;
+    padding: 30px;
+    
+}
+section h2{
+    font-size: 2rem;
+    text-align: center;
+}
+section p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+aside{
+    background-image: url("https://picsum.photos/200/300/?blur=2");
+
+    /* Full height */
+    height: 400px;  
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside h1{
+    text-align: center;
+  
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 25%;
+}
+.aside-1{
+    height: 100vh;
+}
+.aside-2 h1{
+    background-color:transparent;
+    font-size: x-large;
+}
+.section-2{
+    background-color: rgb(40,47,51);
+}
+.section-2 *{
+    color: #fff;
+}
